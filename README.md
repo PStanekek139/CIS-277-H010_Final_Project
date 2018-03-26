@@ -1,4 +1,4 @@
-##BSP Map Generator
+## BSP Map Generator
 
 This project is being developed by Paul Stanek as the final project for CIS-277 (Advanced C++) at Rock Valley College, Spring 2018.
 
