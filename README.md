@@ -1,7 +1,7 @@
 ## BSP Map Generator
 
 This project is being developed by Paul Stanek as the final project for CIS-277 (Advanced C++) at Rock Valley College, Spring 2018.
-
+<!---
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/PStanekek139/CIS-277-H010_Final_Project/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
@@ -39,3 +39,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+--->
