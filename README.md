@@ -22,6 +22,9 @@ The camera can be adjusted using the WASD or cursor keys, and can be zoomed in a
 
 The following tutorials and resources were invaluable in creating this project, and I highly recommend reading them if you are interesting in this type of random map generation:
 
+How to Use BSP Trees to Generate Game Maps (by Timothy Hely):
+https://gamedevelopment.tutsplus.com/tutorials/how-to-use-bsp-trees-to-generate-game-maps--gamedev-12268
+
 
 
 <!---
