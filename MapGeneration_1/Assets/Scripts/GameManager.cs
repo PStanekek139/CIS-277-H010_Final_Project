@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
 		//If instance already exists and it's not this:
 		else if (instance != this)
 
-			//Then destroy this. This enforces our singleton pattern, meaning there can only ever be one instance of a GameManager.
+			//Then destroy this. 
 			Destroy(gameObject);	
 
 		//Sets this to not be destroyed when reloading scene

@@ -146,8 +146,6 @@ using System.IO;
 			}
 
 
-
-
 		//split a leaf into children
 		public Boolean split ()
 		{
@@ -160,11 +158,9 @@ using System.IO;
 			//if equal, split randomly
 			bool splitHor = false;
 			//Debug.Log("Parent x, y, width, height: " + x + ", " + y + ", " + width + "," + height);
-			//if ((width > height) && (width / height >= 1.25)) {
 			if (width > height)  {
 				splitHor = false;
 				//Debug.Log ("splitHor: false");
-			//} else if ((height > width) && (height / width >= 1.25)) {
 			} else if (height > width)  {
 				splitHor = true;
 				//Debug.Log ("splitHor: true");
@@ -277,17 +273,12 @@ using System.IO;
 				} else {
 					return rRoom;
 				}
-
-
-
 			}
 			
 		} //end getRoom()
 
 		public void createHall (Rect l, Rect r)
 		{
-			
-
 			//Debug.Log ("Room1 (x,y,w,h): " + l.x + ", " + l.y + ", " + l.width + ", " + l.height);
 			//Debug.Log ("Room2 (x,y,w,h): " + r.x + ", " + r.y + ", " + r.width + ", " + r.height);
 			
@@ -375,9 +366,6 @@ using System.IO;
 		} //end createHall
 
 		} //end class leaf
-
-
-
 
 
 
@@ -537,15 +525,9 @@ using System.IO;
 						if (isWall) {
 							//set to wall (may change during hallway check)
 							cellsArray [i, j] = TILE_WALL;
-							//GameObject tileChoice = outerWallTiles [Random.Range (0, outerWallTiles.Length)];
-							//Vector3 tilePosition = new Vector3 (i, j, 0f);
-							//Instantiate (tileChoice, tilePosition, Quaternion.identity);
 						} else {
 							//set to floor in cellsArray
 							cellsArray [i, j] = TILE_FLOOR;
-							//GameObject tileChoice = floorTiles [Random.Range (0, floorTiles.Length)];
-							//Vector3 tilePosition = new Vector3 (i, j, 0f);
-							//Instantiate (tileChoice, tilePosition, Quaternion.identity);
 						}
 	
 					}
@@ -560,22 +542,6 @@ using System.IO;
 				for (int j = (int)hall.y; j < (int)(hall.y + hall.height); j++) {
 					//Debug.Log ("Hallway Tile:" + i + ", " + j);
 					
-					//NEW TEST CODE START
-//					if (hall.width > hall.height) {
-//						if ((cellsArray [i, j - 2] != TILE_FLOOR) && (cellsArray [i, j + 2] != TILE_FLOOR)) {
-//							cellsArray [i, j] = TILE_FLOOR;
-//						}
-//					} else if (hall.width < hall.height) {
-//						if ((cellsArray [i-2, j] != TILE_FLOOR) && (cellsArray [i+2, j] != TILE_FLOOR)) {
-//							cellsArray [i, j] = TILE_FLOOR;
-//						}
-//					} else {
-//						cellsArray [i, j] = TILE_FLOOR;
-//					}
-//					
-					//NEW TEST CODE END
-
-					//ORIGINAL STATEMENT:
 					cellsArray [i, j] = TILE_FLOOR;
 					
 				}
