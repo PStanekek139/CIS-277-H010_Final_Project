@@ -23,10 +23,10 @@ I chose to develop this project using Unity to get more familiar with it.  Previ
 The following tutorials and resources were invaluable in creating this project, and I highly recommend reading them if you are interesting in this type of random map generation:
 
 How to Use BSP Trees to Generate Game Maps (by Timothy Hely): 
-https://gamedevelopment.tutsplus.com/tutorials/how-to-use-bsp-trees-to-generate-game-maps--gamedev-12268
+[https://gamedevelopment.tutsplus.com/tutorials/how-to-use-bsp-trees-to-generate-game-maps--gamedev-12268](https://gamedevelopment.tutsplus.com/tutorials/how-to-use-bsp-trees-to-generate-game-maps--gamedev-12268)
 
 Binary Trees (by Richard Fleming, Jr): 
-https://www.youtube.com/watch?v=S5y3ES4Rvkk
+[https://www.youtube.com/watch?v=S5y3ES4Rvkk](https://www.youtube.com/watch?v=S5y3ES4Rvkk)
 
 Basic BSP Dungeon Generation (RogueBasin):
-http://www.roguebasin.com/index.php?title=Basic_BSP_Dungeon_generation
+[http://www.roguebasin.com/index.php?title=Basic_BSP_Dungeon_generation](http://www.roguebasin.com/index.php?title=Basic_BSP_Dungeon_generation)
